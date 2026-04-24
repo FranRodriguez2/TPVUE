@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue - Trabajo Práctico</title>
+
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: white;
+            line-height: 1.6;
+        }
+
+
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            background-color: black;
+            padding: 10px;
+        }
+
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+
+        main {
+            padding: 15px;
+        }
+
+
+        section {
+            margin-bottom: 20px;
+        }
+
+
+        h2 {
+            color: green;
+        }
+
+
+        .logo {
+            width: 500px;
+            display: block;
+            margin: 0 auto 10px auto;
+        }
+
+
+        footer {
+            text-align: center;
+            background-color: black;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+
+<body>
+
+
+<header>
+    <img src="img/vue.png.jpeg" alt="" class="logo">
+
+
+    <p>Francisco Rodriguez - Antonella Vivas</p>
+</header>
+
+
+<nav>
+    <a href="#framework">Framework</a>
+    <a href="#vue">Vue</a>
+    <a href="#app">App</a>
+    <a href="#componentes">Componentes</a>
+</nav>
+
+
+<main>
+
+
+<section id="framework">
+    <h2>Framework</h2>
+    <p>Un framework es una herramienta que proporciona una estructura base para desarrollar aplicaciones.</p>
+    <p>Permite ahorrar tiempo porque evita empezar desde cero en cada proyecto.</p>
+    <p>También ayuda a organizar el código de forma más clara y ordenada.</p>
+    <p>No es un lenguaje de programación, sino un conjunto de reglas y herramientas.</p>
+</section>
+
+
+<section id="vue">
+    <h2>Vue</h2>
+    <p>Vue es un framework de JavaScript que construye interfaces de usuario.</p>
+    <p> Se basa en HTML, CSS y JavaScript estándar y proporciona un modelo de programación</p>
+    <p> declarativo y basado en componentes que te ayuda a desarrollar de manera </p>
+    <p>eficiente interfaces de usuario de cualquier complejidad.</p>
+    <img src="img/htmlcss.png.jpeg" alt="" class="logo.h">
+</section>
+
+
+<section id="app">
+    <h2>¿Cómo crear una aplicación Vue local?</h2>
+    <p>Para crear una aplicación Vue en tu computadora se utiliza Node.js (programa que permite usar JavaScript fuera del navegador) y npm (gestor de paquetes).</p>
+
+
+    <p><strong>Pasos:</strong></p>
+    <p>1. Instalar Node.js desde su página oficial</p>
+    <p>2. Abrir la terminal o consola (lugar donde se escriben comandos)</p>
+    <p>3. Ejecutar: npm create vite@latest (crea el proyecto con una herramienta moderna)</p>
+    <p>4. Elegir Vue como framework (seleccionar la opción dentro del asistente)</p>
+    <p>5. Entrar a la carpeta del proyecto (usar cd nombre-del-proyecto)</p>
+    <p>6. Ejecutar: npm install (instala las dependencias, o sea, lo que el proyecto necesita)</p>
+    <p>7. Ejecutar: npm run dev (inicia un servidor de desarrollo)</p>
+
+
+    <p>Esto crea un servidor de desarrollo (una app que corre en tu compu) que permite ver la aplicación en el navegador, generalmente en localhost (tu propia computadora).</p>
+    <p>También se genera una estructura de archivos con carpetas como components (donde van los componentes) y archivos como main.js (archivo principal) y App.vue (componente principal).</p>
+    <p>En main.js se usa createApp (para crear la app) y mount (para conectarla al HTML).</p>
+
+
+    <p>Este método es local, lo que significa que Vue está instalado en el proyecto y no se usa desde un CDN (no depende de internet para cargarlo).</p>
+</section>
+
+
+<section id="componentes">
+    <h2>¿Qué son los componentes?</h2>
+    <p>Los componentes nos permiten dividir la interfaz de usuario en piezas</p>
+    <p>independientes y reutilizables, y pensar en cada pieza de forma aislada.</p>
+</section>
+
+
+<section id="componentes">
+    <h2>¿Cómo se usan los componentes?</h2>
+    <p>Para usar un componente hijo, necesitamos importarlo en el componente padre.</p>
+    <p>Suponiendo que colocamos nuestro componente contador dentro de un archivo llamado archivopadre.vue </p>
+</section>
+
+
+</main>
+
+
+<footer>
+    Trabajo práctico
+</footer>
+
+
+</body>
+</html>
